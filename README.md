@@ -14,5 +14,10 @@ This code is part of my ride-hailing project, [Driver Experience or Price Effect
 
 ## Running it
 
-Requires Python with `numpy`, `pandas`, `scipy`, `matplotlib`, and `numba`. Figures are written next to the notebook.
-Note: the notebook dates from 2020 and imports `numba.autojit`, which recent numba versions have removed; drop that import (it isn't used) to run on a current setup.
+Requires Python 3 with `numpy`, `pandas`, `scipy`, `matplotlib`, and Jupyter:
+
+```bash
+pip install numpy pandas scipy matplotlib jupyter
+```
+
+Run the cells top to bottom; later sections reuse variables defined earlier. A full run takes about a minute. Two figures are written next to the notebook: the belief-convergence plot (`belief_convergence.jpg`) and the shift-simulation plot (`.png`).
